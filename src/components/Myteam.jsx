@@ -1,9 +1,9 @@
 import { FaGithub, FaInstagram } from "react-icons/fa6";
-import Aldi from "../assets/tim/aldi.png";
-import Niki from "../assets/tim/niki.png";
-import Irfan from "../assets/tim/irfan.png";
-import Evan from "../assets/tim/evan.png";
-import Lintang from "../assets/tim/lintang.png";
+// import Aldi from "../assets/tim/aldi.png";
+// import Niki from "../assets/tim/niki.png";
+// import Irfan from "../assets/tim/irfan.png";
+// import Evan from "../assets/tim/evan.png";
+// import Lintang from "../assets/tim/lintang.png";
 
 const MyTeam = () => {
   return (
@@ -18,9 +18,7 @@ const MyTeam = () => {
           {/* Member 1 */}
           <div className="flex flex-col items-center">
             <div className="relative mb-6 transition-transform transform hover:-translate-y-2 hover:scale-105">
-              <img
-                src={Aldi}
-                alt="Aldi Kurniawan"
+              <img alt="Aldi Kurniawan"
                 className="w-40 h-40 rounded-full object-cover border border-transparent hover:border-indigo-600 shadow-lg"
               />
             </div>
@@ -43,9 +41,7 @@ const MyTeam = () => {
           {/* Member 2 */}
           <div className="flex flex-col items-center">
             <div className="relative mb-6 transition-transform transform hover:-translate-y-2 hover:scale-105">
-              <img
-                src={Niki}
-                alt="Niki Ahmad Hamdani"
+              <img alt="Niki Ahmad Hamdani"
                 className="w-40 h-40 rounded-full object-cover border border-transparent hover:border-indigo-600 shadow-lg"
               />
             </div>
@@ -69,7 +65,6 @@ const MyTeam = () => {
           <div className="flex flex-col items-center">
             <div className="relative mb-6 transition-transform transform hover:-translate-y-2 hover:scale-105">
               <img
-                src={Irfan}
                 alt="Muhammad Irfan M."
                 className="w-40 h-40 rounded-full object-cover border border-transparent hover:border-indigo-600 shadow-lg"
               />
@@ -93,9 +88,7 @@ const MyTeam = () => {
           {/* Member 4 */}
           <div className="flex flex-col items-center">
             <div className="relative mb-6 transition-transform transform hover:-translate-y-2 hover:scale-105">
-              <img
-                src={Evan}
-                alt="Evan Destian Saputra"
+              <img alt="Evan Destian Saputra"
                 className="w-40 h-40 rounded-full object-cover border border-transparent hover:border-indigo-600 shadow-lg"
               />
             </div>
@@ -119,7 +112,7 @@ const MyTeam = () => {
           <div className="flex flex-col items-center">
             <div className="relative mb-6 transition-transform transform hover:-translate-y-2 hover:scale-105">
               <img
-                src={Lintang}
+
                 alt="Muhammad Lintang A."
                 className="w-40 h-40 rounded-full object-cover border border-transparent hover:border-indigo-600 shadow-lg"
               />

@@ -90,7 +90,7 @@ const Content2 = () => {
           id="pembahasan"
           className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 z-50"
         >
-          {/* page1 */}
+          {/* 3 */}
           <div data-aos="fade-up-right" className="p-10 w-full  ">
             <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
               Kegiatan Sehat <span className="text-sky-500">fisik</span>
@@ -198,9 +198,8 @@ const Content2 = () => {
                     </button>
                   </div>
                   <div
-                    className={`${
-                      visibleSections[index] ? "block" : "hidden"
-                    } `}
+                    className={`${visibleSections[index] ? "block" : "hidden"
+                      } `}
                   >
                     <p className="text-start mt-5 font-roboto">{content}</p>
                   </div>

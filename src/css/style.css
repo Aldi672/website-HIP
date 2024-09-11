@@ -1,0 +1,321 @@
+/* Aturan CSS untuk layar lebar (desktop) */
+@media screen and (min-width: 1200px) {
+
+    .frame {
+        background-image: url(../assets/tim/ip.jpg);
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+        justify-content: center;
+        display: flex;
+    }
+
+    .frame .div {
+        background-color: rgba(255, 255, 255, 0.2);
+        height: 1024px;
+        position: relative;
+        width: 1440px;
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+    }
+
+    .slide {
+        display: none;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .slide.active {
+        display: block;
+        animation: fade 0.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0.4;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .baru {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 272px;
+        left: 30px;
+        position: absolute;
+        top: 33px;
+        width: 1380px;
+    }
+
+    .over-group {
+        position: relative;
+        top: 50px;
+        left: 507px;
+    }
+
+    .text-wrapper {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+        width: 499px;
+        position: relative;
+        top: 161px;
+        left: -61px;
+    }
+
+    .overlap {
+        position: relative;
+        width: 384px;
+        height: 86px;
+    }
+
+    .text-wrapper-2 {
+        color: #ffffff;
+        font-size: 70px;
+        font-weight: 500;
+        text-align: right;
+        white-space: nowrap;
+        width: 348px;
+        position: relative;
+        top: 0;
+        left: 14px;
+    }
+
+    .vector {
+        width: 384px;
+        height: 10px;
+        position: relative;
+        top: -5px;
+        left: 0;
+    }
+
+    .PT {
+        color: #000000;
+        font-family: "Alumni Sans", sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: right;
+        width: 781px;
+        position: absolute;
+        top: 474px;
+        left: 619px;
+    }
+
+    .PT p {
+        padding: 10px;
+    }
+
+    .rectangle {
+        background-color: #6899c1e0;
+        border-radius: 20px;
+        height: 12px;
+        width: 221px;
+        position: relative;
+        top: 185px;
+        left: 30px;
+    }
+
+    .rectangle-2 {
+        background-color: #6899c1e0;
+        border-radius: 20px;
+        height: 12px;
+        width: 221px;
+        position: relative;
+        top: 175px;
+        left: 1189px;
+    }
+
+    .rectangle-3 {
+        background-color: #6899c1e0;
+        border-radius: 20px;
+        height: 12px;
+        width: 221px;
+        position: relative;
+        top: 160px;
+        left: 610px;
+    }
+
+    .img {
+        width: 1px;
+        height: 396px;
+        position: absolute;
+        top: 475px;
+        left: 550px;
+    }
+
+    .whatsapp-image {
+        height: 434px;
+        width: 398px;
+        object-fit: cover;
+        position: relative;
+        top: 300px;
+        left: -470px;
+        mix-blend-mode: multiply;
+
+    }
+
+    /* Tombol Navigasi */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: none;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+    }
+}
+
+/* Aturan CSS untuk layar menengah (tablet) */
+
+
+/* Aturan CSS untuk layar kecil (ponsel) */
+@media screen and (max-width: 767px) {
+    .frame {
+        background-image: url(../assets/tim/ip.jpg);
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+        justify-content: center;
+        display: flex;
+    }
+
+    .frame .div {
+        background-color: rgba(255, 255, 255, 0.2);
+        height: 400px;
+        position: relative;
+        width: 767px;
+        overflow: hidden;
+        margin-top: 60px;
+    }
+
+    .frame .div .baru {
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+        height: 90px;
+        left: 18px;
+        top: 20px;
+    }
+
+    .frame .over-group {
+        position: relative;
+        top: -50px;
+        left: 50px;
+    }
+
+    .frame .over-group .text-wrapper {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        width: 499px;
+        position: relative;
+        top: 30px;
+        left: -55px;
+    }
+
+    .frame .over-group .overlap {
+        position: relative;
+        width: 384px;
+        height: 86px;
+        top: 10px;
+    }
+
+    .text-wrapper-2 {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: right;
+        white-space: nowrap;
+        width: 30px;
+        position: relative;
+        top: -50px;
+        left: 35%;
+    }
+
+    .vector {
+        width: 150px;
+        height: 10px;
+        position: relative;
+        top: -58px;
+        left: 120px;
+    }
+
+    .PT {
+        background-color: #b099994a;
+        padding: 10px;
+        color: #000000;
+        font-family: "Alumni Sans", sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        height: 200px;
+        text-align: left;
+        width: 250px;
+        position: relative;
+        top: -60px;
+        left: 230px;
+        overflow-y: auto;
+    }
+
+    .PT p {
+        padding: 10px;
+
+    }
+
+    @keyframes scroll-vertical {
+        0% {
+            transform: translateY(-100%);
+            /* Mulai dari luar layar sebelah atas */
+        }
+
+        100% {
+            transform: translateY(100%);
+            /* Bergerak ke luar layar sebelah bawah */
+        }
+    }
+
+    .img {
+        width: 2px;
+        height: 200px;
+        position: absolute;
+        top: 150px;
+        left: 220px;
+    }
+
+    .whatsapp-image {
+        height: 220px;
+        width: 180px;
+        object-fit: cover;
+        position: relative;
+        top: -250px;
+        left: -135px;
+
+    }
+
+
+}

@@ -20,6 +20,9 @@ import Footer3 from "../components/pagefooter/Footer3";
 import Footer2 from "../components/pagefooter/Footer2";
 import Footer5 from "../components/pagefooter/Footer5";
 
+import Frame from "../components/companyvalue";
+import Page1 from "../components/our";
+
 const Home = () => {
   const [selectedType, setSelectedType] = useState(1);
 
@@ -63,18 +66,18 @@ const Home = () => {
 
   const renderFooter = () => {
     switch (selectedType) {
-      case 1 :
-        return <Footer/>
+      case 1:
+        return <Footer />
       case 2:
         return <Footer2 />;
       case 3:
         return <Footer3 />;
       case 4:
-        return <Footer4/>;
+        return <Footer4 />;
       case 5:
         return <Footer5 />;
       default:
-        return <Footer4/>;
+        return <Footer4 />;
     }
   }
 
@@ -83,6 +86,8 @@ const Home = () => {
       <Navbar />
       <Herro />
       <Tenka />
+      <Frame />
+      <Page1 />
       <Type onTypeClick={handleTypeClick} />
       {renderContent()}
       {renderConskas()}

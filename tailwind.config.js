@@ -9,12 +9,24 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily:{
+      keyframes: {
+        floating: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        floating: 'floating 2s ease-in-out infinite',
+      },
+
+      fontFamily: {
         roboto: ["roboto-regular"],
         anton: ["anton-reguler"],
         oswald: ["oswald"],
         signika: ["signika"],
-        newamsterdam: ["newamsterdam"]
+        newamsterdam: ["newamsterdam"],
+
       }
     },
   },

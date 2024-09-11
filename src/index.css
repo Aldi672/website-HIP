@@ -32,4 +32,22 @@
         url('./assets/font/Signika.ttf') format("truetype")
 }
 
+@font-face {
+    font-family: "Inika";
+    src: local('Inika-Regular'),
+        url('./assets/font/Inika-Regular.ttf') format("truetype")
+}
 
+@font-face {
+    font-family: "Artifika";
+    src: local('Artifika-Regular'),
+        url('./assets/font/Artifika-Regular.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: "Alumni";
+    src: local('AlumniSans'),
+        url('./assets/font/AlumniSans-Italic-VariableFont_wght.ttf') format("truetype")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,500&display=swap');
