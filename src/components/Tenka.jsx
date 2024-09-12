@@ -33,7 +33,7 @@ const Tenka = () => {
         </div>
 
         {/* Kolom Kanan */}
-        <div id="body" className="w-[50%] mt-[80px]" data-aos="fade-right"> {/* Animasi ketika masuk dari kanan */}
+        <div id="body" className="w-[50%] mt-[1000px]" data-aos="fade-right"> {/* Animasi ketika masuk dari kanan */}
           <h1 id="intro" className="text-5xl font-bold mb-[1rem]">INTRODUCTION</h1>
           <div id="bar" className="w-56 h-1 bg-yellow-500 mb-[1rem]"></div>
           <p className="mb-4">
