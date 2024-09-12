@@ -1,4 +1,4 @@
-import jawir from "../assets/img/WhatsApp Image 2024-09-05 at 09.15.29 1.png"
+
 import gambar from "../assets/img/WhatsApp Image 2024-09-04 at 16.47.25 2.png"
 import "../css/style.css"
 import vector3 from "../assets/img/Vector 3.svg"
