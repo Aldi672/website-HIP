@@ -2,7 +2,7 @@
 @media screen and (min-width: 1200px) {
 
     .frame {
-        background-image: url(../assets/tim/ip.jpg);
+        background-image: url(../assets/bacground/buul.jpeg);
         background-position: center;
         background-size: cover;
         background-size: no-repeat;
@@ -11,7 +11,7 @@
     }
 
     .frame .div {
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: rgba(255, 255, 255, 0.1);
         height: 1024px;
         position: relative;
         width: 1440px;
@@ -196,20 +196,22 @@
 /* Aturan CSS untuk layar kecil (ponsel) */
 @media screen and (max-width: 767px) {
     .frame {
-        background-image: url(../assets/tim/ip.jpg);
+        background-image: url(../assets/bacground/buul.jpeg);
         background-position: center;
         background-size: cover;
-        background-size: no-repeat;
+        background-repeat: no-repeat;
         justify-content: center;
         display: flex;
+        height: 800px;
     }
 
     .frame .div {
-        background-color: rgba(255, 255, 255, 0.2);
+
         height: 400px;
+
         position: relative;
-        width: 767px;
-        overflow: hidden;
+
+        /* overflow: hidden; */
         margin-top: 60px;
     }
 
@@ -218,13 +220,14 @@
         background-size: cover;
         position: relative;
         height: 90px;
-        left: 18px;
-        top: 20px;
+        width: 350px;
+        left: 73px;
+        top: 0px;
     }
 
     .frame .over-group {
         position: relative;
-        top: -50px;
+        top: -70px;
         left: 50px;
     }
 
@@ -272,13 +275,13 @@
         color: #000000;
         font-family: "Alumni Sans", sans-serif;
         font-style: italic;
-        font-size: 15px;
-        height: 200px;
+        font-size: 20px;
+        height: 230px;
         text-align: left;
-        width: 250px;
+        width: 310px;
         position: relative;
-        top: -60px;
-        left: 230px;
+        top: 260px;
+        left: 80px;
         overflow-y: auto;
     }
 
@@ -300,11 +303,11 @@
     }
 
     .img {
-        width: 2px;
-        height: 200px;
+        width: 200px;
+        height: 2px;
         position: absolute;
-        top: 150px;
-        left: 220px;
+        top: 400px;
+        left: 145px;
     }
 
     .whatsapp-image {
@@ -312,8 +315,8 @@
         width: 180px;
         object-fit: cover;
         position: relative;
-        top: -250px;
-        left: -135px;
+        top: -300px;
+        left: -5px;
 
     }
 

@@ -25,6 +25,7 @@ const Tenka = () => {
           id="image"
           className="w-1/2 pr-[10rem]">
           <img
+            id="tan"
             src={TenkaImage}
             alt="Tenka"
             className="animate-floating" // Bisa tetap menggunakan animasi floating
