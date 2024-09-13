@@ -13,7 +13,7 @@ const Herro = () => {
   return (
     <div id="beranda" className="relative w-full h-screen">
       <div className="w-full h-full">
-        <img src={Hero} className="object-cover w-full h-full" alt="Hero Image" />
+        <img src={Hero} className="object-cover w-full " alt="Hero Image" />
         <div className="space-y-1 top-10 lg:ml-20 max-w-[90%] md:max-w-[600px] h-full flex flex-col items-start justify-center px-4 md:px-10 lg:gap-6" >
           <p className="absolute w-[90%] md:w-[710px] top-[20%] md:top-[221px] left-[5%] md:left-[51px] [font-family:'Inika'] font-normal text-white text-[6vw] md:text-[4vw] lg:text-[55px] tracking-[0] leading-[normal]" data-aos="zoom-in-down" data-aos-duration="2000">
             Welcome to the website of PT Haekal Inti Pratama
