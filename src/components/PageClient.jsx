@@ -9,7 +9,7 @@ const PageClient = () => {
         <div className='bata'>
             <header className='logo clien'>
                 <h1 className='text-4xl font-bold font-signika  text-sky-500 sm:text-5xl md:text-5xl text-center '>Our <span className='text-cyan-950'>client</span></h1>
-                <h2>In addition to providing foreign and local ship inspection services, we are also helps in supporting oil and gas activities Here are several of our clients:</h2>
+                <h2>In addition to providing foreign and local ship inspection services, we are also helps in supporting oil and gas activities Here are several of our clients.</h2>
             </header>
 
             <section className="client-list">
