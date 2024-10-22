@@ -18,7 +18,7 @@ import { EffectCube, Pagination } from 'swiper/modules';
 const Frame = () => {
     return (
 
-        <div className="frame">
+        <div id="frame" className="frame">
 
             <div className="div">
                 <img src={gambar} className="baru" />
@@ -40,10 +40,11 @@ const Frame = () => {
                         and Singapore with total performance commitment, not only promises.</p>
 
                 </p>
-                <div className="rectangle" />
-                <div className="rectangle-2" />
-                <div className="rectangle-3" />
-
+                <div id="rectangle">
+                    <div className="rectangle" />
+                    <div className="rectangle" />
+                    <div className="rectangle" />
+                </div>
                 <img className="img" alt="Vector" src={vector2} />
                 <Swiper
                     effect={'cube'}

@@ -1,0 +1,372 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .bacground {
+        background-image: url(../img/frame.png);
+        height: 1024px;
+        background-size: cover;
+        background-size: no-repeat;
+    }
+
+    .card1 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 22%;
+        top: 35rem;
+        left: 40%;
+        height: 12vw;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card2 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 23%;
+        height: 12vw;
+        bottom: -15rem;
+        left: 10%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card3 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 22%;
+        bottom: -15%;
+        height: 12vw;
+        left: 70%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card1 .car1 {
+        width: 5vw;
+        position: relative;
+        top: 1.3rem;
+        left: 0.65rem;
+
+
+    }
+
+    .card2 .car2 {
+        width: 5vw;
+        position: relative;
+        top: 1.3rem;
+        left: 0.65rem;
+
+
+    }
+
+    .card3 .car3 {
+        width: 5vw;
+        position: relative;
+        top: 1.3rem;
+        left: 0.65rem;
+
+
+    }
+
+    .bacground .card1 .h1 {
+        font-size: 1.2rem;
+        width: 50%;
+        margin-left: 5rem;
+        position: relative;
+        top: -2.4rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .bacground .card2 .h2 {
+        font-size: 1.2rem;
+        width: 50%;
+        margin-left: 4rem;
+        position: relative;
+        top: -1.8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .card1 .bubur {
+        font-size: 1.2vw;
+        width: 50%;
+        margin-left: 5rem;
+        margin-top: -20%;
+        padding-bottom: 1rem;
+    }
+
+    .card2 .bubur1 {
+        font-size: 1.3vw;
+        width: 50%;
+        margin-left: 4rem;
+        margin-top: -10%;
+        padding-bottom: 1rem;
+    }
+
+    .card3 .bubur2 {
+        font-size: 1vw;
+        margin-left: 5rem;
+        margin-top: -15%;
+        padding-bottom: 1rem;
+    }
+
+    .bacground .gambar {
+        width: 40vw;
+        margin-left: 31vw;
+        position: relative;
+        top: -19vw;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1800px) {
+    .bacground {
+        background-image: url(../img/frame.png);
+        height: 1024px;
+        background-size: cover;
+        background-size: no-repeat;
+    }
+
+    .card1 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 20%;
+        top: 36rem;
+        left: 40%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card2 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 23%;
+        height: 7rem;
+        bottom: -15rem;
+        left: 10%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card3 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 20%;
+        bottom: -11%;
+        left: 70%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card1 .car1 {
+        width: 5vw;
+        position: relative;
+        top: 1.3rem;
+        left: 0.65rem;
+
+
+    }
+
+    .card2 .car2 {
+        width: 5vw;
+        position: relative;
+        top: 1.3rem;
+        left: 0.65rem;
+
+
+    }
+
+    .card3 .car3 {
+        width: 5vw;
+        position: relative;
+        top: 1.3rem;
+        left: 0.65rem;
+
+
+    }
+
+    .bacground .card1 .h1 {
+        font-size: 1.5rem;
+        width: 50%;
+        margin-left: 6rem;
+        position: relative;
+        top: -4rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .bacground .card2 .h2 {
+        font-size: 1.5rem;
+        width: 50%;
+        margin-left: 6rem;
+        position: relative;
+        top: -3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .card1 .bubur {
+        font-size: 1vw;
+        width: 50%;
+        margin-left: 6rem;
+        margin-top: -20%;
+        padding-bottom: 1rem;
+    }
+
+    .card2 .bubur1 {
+        font-size: 1.3vw;
+        width: 50%;
+        margin-left: 6rem;
+        margin-top: -15%;
+        padding-bottom: 1rem;
+    }
+
+    .card3 .bubur2 {
+        font-size: 1vw;
+        margin-left: 6rem;
+        margin-top: -20%;
+        padding-bottom: 1rem;
+    }
+
+    .bacground .gambar {
+        width: 40vw;
+        margin-left: 31vw;
+        position: relative;
+        top: -19vw;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .bacground {
+        background-image: url(../img/frame.png);
+        height: 1024px;
+        background-size: cover;
+        background-size: no-repeat;
+    }
+
+    .card1 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 75%;
+        height: 9%;
+        bottom: -19rem;
+        left: 10%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card2 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 75%;
+        height: 9%;
+        bottom: -21rem;
+        left: 10%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card3 {
+        background-color: rgba(248, 236, 236, 0);
+
+        position: relative;
+        width: 76%;
+        height: 12%;
+        bottom: -24rem;
+        left: 10%;
+        backdrop-filter: blur(10px);
+        border-radius: 1.5vw;
+
+        box-shadow: 1px 10px 20px rgba(76, 76, 76, 0.341)
+    }
+
+    .card1 .car1 {
+        width: 15vw;
+        position: relative;
+        top: 0.8rem;
+        left: 0.65rem;
+
+
+    }
+
+    .card2 .car2 {
+        width: 15vw;
+        position: relative;
+        top: 0.8rem;
+        left: 0.65rem;
+
+
+    }
+
+    .card3 .car3 {
+        width: 15vw;
+        position: relative;
+        top: 0.8rem;
+        left: 0.65rem;
+
+
+    }
+
+    .bacground .card1 .h1 {
+        font-size: 1.5rem;
+        width: 50%;
+        margin-left: 5rem;
+        position: relative;
+        top: -3.6rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .bacground .card2 .h2 {
+        font-size: 1.5rem;
+        width: 50%;
+        margin-left: 5rem;
+        position: relative;
+        top: -3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .card1 .bubur {
+        font-size: 3.4vw;
+        width: 60%;
+        margin-left: 5.3rem;
+        margin-top: -20%;
+        padding-bottom: 1rem;
+    }
+
+    .card2 .bubur1 {
+        font-size: 4.5vw;
+        width: 60%;
+        margin-left: 5.3rem;
+        margin-top: -15%;
+        padding-bottom: 1rem;
+    }
+
+    .card3 .bubur2 {
+        font-size: 3.3vw;
+        width: 65%;
+        margin-left: 5.3rem;
+        margin-top: -15%;
+        padding-bottom: 1rem;
+    }
+
+    .bacground .gambar {
+        width: 60vw;
+        margin-left: 20vw;
+        position: relative;
+        top: -18%;
+    }
+
+}

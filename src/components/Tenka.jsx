@@ -17,8 +17,8 @@ const Tenka = () => {
     <div id="tentangkami" className="w-full flex items-center justify-center bg-cover bg-center">
       <main
 
-        className="flex-grow text-black p-10 flex  justify-center items-center"
-        style={{ backgroundImage: `url(${Logo})` }}
+        className="p-14 flex  justify-center items-center"
+
       >
         {/* Kolom Kiri */}
         <div
@@ -34,23 +34,21 @@ const Tenka = () => {
         </div>
 
         {/* Kolom Kanan */}
-        <div id="body" className="w-[50%] mt-[150px]" data-aos="fade-right"> {/* Animasi ketika masuk dari kanan */}
-          <h1 id="intro" className="text-5xl font-bold mb-[1rem]">INTRODUCTION</h1>
-          <div id="bar" className="w-56 h-1 bg-yellow-500 mb-[1rem]"></div>
-          <p className="mb-4">
-            To continue provide quality services, PT. Haekal Inti Pratama will continue to maintain the company's principles by carrying out <br id="1" />effective control and management in every product and services we offer. PT. Haekal Inti Pratama as a leading General Contractor, <br id="1" /> Safety Equipment, and Medical Supplier (Hyperbaric Chamber & Marine Services) we always provides the best services and products to meet partner needs. We offer integrity, <br id="1" />skill and flexibility through the best combination of budget and speed. To prove our competitiveness, <br id="1" /> we continuously improve our service and selection of quality product. To all partners and clients, we are committed to maintaining the <br id="1" /> satisfaction of PT. Haekal Inti Pratama partners.
-            This company <br id="1" />profile was created as a basis for <br id="1" />consideration, offers, cooperation, and product information <br id="1" /> from our company. Finally, we thank you for <br id="1" />y the opportunity to receive and <br id="1" />read this company profile and we hope for your cooperation.
+        <div id="body" className="" data-aos="fade-right"> {/* Animasi ketika masuk dari kanan */}
+          <h1 id="intro" className="text-5xl font-bold mb-[1rem] mt-8" >INTRODUCTION</h1>
+          <p id="bar" className="h-1 bg-yellow-500 mb-[1rem] mr-12"></p>
+          <p className="geblek mb-4 text-white">
+            To continue provide quality services, PT. Haekal Inti Pratama will continue to maintain the companys principles by carrying out effective control and management in every product and services we offer. PT. Haekal Inti Pratama as a leading General Contractor,  Safety Equipment. We offer integrity, skill and flexibility through the best combination of budget and speed. To prove our competitiveness,  we continuously improve our service and selection of quality product. To all partners and clients, we are committed to maintaining the  satisfaction of PT. Haekal Inti Pratama partners.
+            This company profile was created as a basis for consideration, offers, cooperation, and product information  from our company. Finally, we thank you for the opportunity to receive and read this company profile and we hope for your cooperation.
             <br /><br />
-            <div id="br" className="text-white font-semibold">CEO PT. Haekal Inti Pratama</div>
-            <div id="br" className="text-white font-medium">Mohammad Fadillah</div>
+            <div id="br" className="text-black font-semibold">CEO PT. Haekal Inti Pratama</div>
+            <div id="br" className="text-black font-medium">Mohammad Fadillah</div>
 
           </p>
-          <button className="bg-yellow-500 text-white px-6 py-3 rounded" data-aos="zoom-in">
-            READ MORE
-          </button>
+
         </div>
       </main>
-    </div>
+    </div >
   );
 };
 

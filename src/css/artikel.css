@@ -1,0 +1,135 @@
+.baro {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(../img/frame.png);
+    padding: 20px;
+}
+
+.image-article {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Artikel utama */
+.article-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffffa0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1 h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.introduction h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+.content h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #555;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #000;
+    margin: 10px 0;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+strong {
+    color: #333;
+}
+
+/* Aturan khusus untuk kesimpulan */
+.article-container .conclusion ul li {
+    list-style-type: square;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+
+    .article-container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    .article-container {
+        padding: 10px;
+    }
+
+    .h1 h1 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    ul {
+        margin-left: 10px;
+    }
+}

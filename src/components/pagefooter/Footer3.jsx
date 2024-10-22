@@ -1,28 +1,39 @@
 import { FaInstagram } from "react-icons/fa";
-import Logo from "/src/assets/img/logo.png"
+import { FaEnvelope } from "react-icons/fa6";
+import mail from "../img/email.png"
+import Logo from "../img/WhatsApp_Image_2024-09-02_at_14.52.52-removebg.png"
 
 
 const Footer3 = () => {
   return (
-    <footer className="bg-sky-800 text-white py-12 mt-10">
+    <footer className="bg-sky-300 text-white py-12 mt-10">
       <div className="container mx-auto px-6 lg:px-16">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Section 1: About SaveLife */}
           <div className="lg:w-1/3">
-          <div className="flex items-center mb-5">
-              <img className="w-10 h-auto" src={Logo} alt="" />
-              <h2 className="text-3xl font-bold font-signika ">SaveLife</h2>
+            <div className="flex items-center mb-5">
+              <img className="w-52 h-auto" src={Logo} alt="" />
+
             </div>
             <p className="text-sm font-roboto">
-              SaveLife adalah platform yang didedikasikan untuk memberikan informasi tentang kesehatan, nutrisi, dan gaya hidup sehat. Kami berkomitmen untuk membantu Anda mencapai hidup yang lebih sehat dan berkualitas.
+              PT. Haekal Inti Pratama will continue to maintain the companys principles by carrying out effective control and management in every product and services we offer..
             </p>
             <div className="mt-6 flex flex-col">
-              <p className="font-semibold font-signika">Hubungi kami</p>
+              <p className="font-semibold font-signika">Contact us</p>
               <div className="flex items-center space-x-3 mt-2">
                 <FaInstagram />
-                <a href="https://www.instagram.com/savelife_46/?igsh=aDd1dnQ4MTkxaHMx" className="text-white  hover:text-sky-300">
-                   savelife_46
+                <a href="https://www.instagram.com/haekal_inti_pratama?igsh=MTl3ODJ0OW9oank4cQ==" className="text-white  hover:text-sky-300">
+                  haekal_inti_pratama
                 </a>
+
+              </div>
+              <div className="flex items-center space-x-3 mt-2">
+                <FaEnvelope />
+                <a href="https://www.instagram.com/haekal_inti_pratama?igsh=MTl3ODJ0OW9oank4cQ==" className="text-white  hover:text-sky-300">
+                  haekal_inti_pratama
+                </a>
+
+
               </div>
             </div>
           </div>
@@ -34,47 +45,29 @@ const Footer3 = () => {
               <ul className="space-y-2">
                 <li>
                   <a href="#beranda" className="text-white hover:text-sky-300">
-                    Beranda
-                  </a>
-                </li>
-                <li>
-                  <a href="#temasehat" className="text-white hover:text-sky-300">
-                    Tema Sehat
-                  </a>
-                </li>
-                <li>
-                  <a href="#conkas" className="text-white hover:text-sky-300">
-                    Kasus
+
+                    Home page
                   </a>
                 </li>
                 <li>
                   <a href="#tentangkami" className="text-white hover:text-sky-300">
-                    Tentang kami
+                    Introduction
+                  </a>
+                </li>
+                <li>
+                  <a href="#frame" className="text-white hover:text-sky-300">
+                    Company
+                  </a>
+                </li>
+                <li>
+                  <a href="#fotofolio" className="text-white hover:text-sky-300">
+                    Portofolio
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Sumbar informasi</h3>
-              <ul className="space-y-2">
-                <li>
-                  <a href="https://www.emc.id/id/care-plus/gizi-seimbang-untuk-gaya-hidup-yang-sehat" className="text-white hover:text-sky-300">
-                    emc.id
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.bener.desa.id/peran-kesehatan-masyarakat-dalam-imunisasi-menjangkau-dan-melayani-komunitas/" className="text-white hover:text-sky-300">
-                    bener.desa.id
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ditpsd.kemdikbud.go.id/kss/sehat-imunisasi/" className="text-white hover:text-sky-300">
-                    kemdikbud.go.id
-                  </a>
-                </li>
-              </ul>
-            </div>
+
 
             <div>
               <h3 className="text-xl font-semibold mb-4">kredit</h3>
@@ -85,8 +78,13 @@ const Footer3 = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.canva.com/" className="text-white hover:text-sky-300">
-                    Canva
+                  <a href="https://www.figma.com/" className="text-white hover:text-sky-300">
+                    Figma
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.bing.com/images/create" className="text-white hover:text-sky-300">
+                    Bing Image
                   </a>
                 </li>
               </ul>
@@ -96,7 +94,7 @@ const Footer3 = () => {
 
         <div className="mt-12 border-t border-sky-700 pt-6 text-center">
           <p className="text-sm font-roboto">
-            © {new Date().getFullYear()} SaveLife. All rights reserved.
+            © {new Date().getFullYear()} PT.haekal_inti_pratama
           </p>
         </div>
       </div>

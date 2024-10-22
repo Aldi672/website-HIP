@@ -1,0 +1,279 @@
+/* Mengatur gaya dasar untuk seluruh halaman */
+@media screen and (min-width: 1025px) {
+    .ibu {
+
+        /* Gambar background */
+        background-image: url(../img/frame.png);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        color: #333;
+        box-sizing: border-box;
+    }
+
+    .title .letter {
+        display: inline-block;
+
+
+        /* Membuat setiap huruf menjadi inline block */
+
+    }
+
+    /* Mengatur bagian header */
+    .header {
+        text-align: center;
+        color: rgb(29, 5, 5);
+        padding: 20px 20px;
+        ;
+        /* Semi-transparan */
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+
+
+    .subtitle {
+        font-size: 1.2rem;
+        color: #0c0d0d;
+        margin-top: 0;
+    }
+
+    .projects1 {
+        display: flex;
+        overflow-x: scroll;
+        /* Scroll secara horizontal */
+        scroll-snap-type: x mandatory;
+    }
+
+    /* Mengatur bagian proyek */
+    .projects1 .project-item2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    /* Mengatur tampilan tiap proyek */
+    .project {
+
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.677);
+
+
+        padding: 10px;
+        width: 400px;
+        height: 300px;
+        cursor: pointer;
+        margin: 30px;
+
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project img {
+        border-radius: 20px;
+        width: 400px;
+        height: 280px;
+    }
+
+
+
+
+
+
+
+
+    /* Efek hover */
+    .project:hover {
+        transform: translateY(-10px);
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .ibu {
+
+        /* Gambar background */
+        background-image: url(../img/frame.png);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        color: #333;
+        box-sizing: border-box;
+    }
+
+    .title .letter {
+        display: inline-block;
+
+
+        /* Membuat setiap huruf menjadi inline block */
+
+    }
+
+    /* Mengatur bagian header */
+    .header {
+        text-align: center;
+        color: rgb(29, 5, 5);
+        padding: 20px 20px;
+        ;
+        /* Semi-transparan */
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+
+
+    .subtitle {
+        font-size: 1.2rem;
+        color: #0c0d0d;
+        margin-top: 0;
+    }
+
+    .projects1 {
+        display: flex;
+        overflow-x: scroll;
+        /* Scroll secara horizontal */
+        scroll-snap-type: x mandatory;
+    }
+
+    /* Mengatur bagian proyek */
+    .projects1 .project-item2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    /* Mengatur tampilan tiap proyek */
+    .project {
+
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.677);
+
+
+        padding: 10px;
+        width: 400px;
+        height: 300px;
+        cursor: pointer;
+        margin: 30px;
+
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project img {
+        border-radius: 20px;
+        width: 400px;
+        height: 280px;
+    }
+
+
+
+
+
+
+
+
+    /* Efek hover */
+    .project:hover {
+        transform: translateY(-10px);
+    }
+
+
+}
+
+/* Responsif untuk layar yang lebih kecil */
+@media (max-width: 600px) {
+    .ibu {
+
+        /* Gambar background */
+        background-image: url(../img/frame.png);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        color: #333;
+        box-sizing: border-box;
+    }
+
+    .title .letter {
+        display: inline-block;
+
+
+        /* Membuat setiap huruf menjadi inline block */
+
+    }
+
+    /* Mengatur bagian header */
+    .header {
+        text-align: center;
+        color: rgb(29, 5, 5);
+        padding: 20px 20px;
+        ;
+        /* Semi-transparan */
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+
+
+    .subtitle {
+        font-size: 1.2rem;
+        color: #0c0d0d;
+        margin-top: 0;
+    }
+
+    .projects1 {
+        display: flex;
+        overflow-x: scroll;
+        /* Scroll secara horizontal */
+        scroll-snap-type: x mandatory;
+    }
+
+    /* Mengatur bagian proyek */
+    .projects1 .project-item2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    /* Mengatur tampilan tiap proyek */
+    .project {
+
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.677);
+
+
+        padding: 10px;
+        width: 90%;
+        height: 300px;
+        cursor: pointer;
+        margin: 30px;
+
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project img {
+        border-radius: 20px;
+        width: 400px;
+        height: 280px;
+    }
+
+
+
+
+
+
+
+
+    /* Efek hover */
+    .project:hover {
+        transform: translateY(-10px);
+    }
+}

@@ -1,5 +1,6 @@
 import { IoMdMenu } from "react-icons/io";
 import Logo from "../assets/img/WhatsApp_Image_2024-09-02_at_14.52.52-removebg.png";
+import "../css/logo.css"
 import { useState, useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
 
@@ -26,17 +27,18 @@ const Navbar = () => {
     <>
       <div className={`fixed top-0 left-0 z-50 w-full ${navbarBackground} transition-all duration-500 md:px-7 px-5 py-4 flex justify-between items-center`}>
         <div className="flex items-center gap-1">
-          <img src={Logo} className="w-40 " alt="Logo" />
+          <img src={Logo} id="Logo" alt="Logo" />
 
 
         </div>
-        <div className="md:flex hidden items-center font-signika">
-          <ul className="flex space-x-3 text-[17px] text-white font-roboto font-bold">
-            <a href="#beranda"><li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Beranda</li></a>
-            <a href="#conkas"><li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">kasus</li></a>
-            <a href="#temasehat"><li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tema Sehat</li></a>
-            <a href="#timkami"><li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tim kami</li></a>
-            <a href="#tentangkami"><li className="inline-block px-4 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Tentang Kami</li></a>
+        <div id="Navbar" className="md:flex hidden items-center font-signika">
+          <ul className="flex space-x-3 text-[17px] text-black font-roboto font-bold">
+            <a href="#beranda"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">
+              Home page</li></a>
+            <a href="#tentangkami"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Introduction</li></a>
+            <a href="#frame"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Company</li></a>
+            <a href="#fotofolio"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Portofolio</li></a>
+            <a href="#contact"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Contact us</li></a>
           </ul>
         </div>
         <div onClick={() => setButton(!button)} className="md:hidden flex items-center cursor-pointer">
@@ -55,19 +57,20 @@ const Navbar = () => {
         </div>
         <ul className="flex flex-col font-signika space-y-3 p-4 text-white">
           <a href="#beranda">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Beranda</li>
-          </a>
-          <a href="#conkas">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Kasus</li>
-          </a>
-          <a href="#temasehat">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tema Sehat</li>
-          </a>
-          <a href="#timkami">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tim kami</li>
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">
+              Home page</li>
           </a>
           <a href="#tentangkami">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Tentang Kami</li>
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Introduction</li>
+          </a>
+          <a href="#frame">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Company</li>
+          </a>
+          <a href="#fotofolio">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Portofolio</li>
+          </a>
+          <a href="#contact">
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Contact us</li>
           </a>
         </ul>
       </div>

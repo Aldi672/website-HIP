@@ -1,0 +1,132 @@
+/* General Styles */
+.bar {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/frame.png);
+
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    background-size: no-repeat;
+
+}
+
+
+
+#logo {
+    font-size: 3.5vw;
+    line-height: 16vw;
+    margin-bottom: 6vw;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1800px) {
+    .specialities {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cards in a row */
+        gap: 30px;
+        justify-items: center;
+        padding: 40px;
+    }
+
+    .speciality-card {
+        background-color: rgba(255, 255, 255, 0.2);
+        /* Transparent background */
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        /* Transparent border */
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        text-align: center;
+        backdrop-filter: blur(10px);
+        /* Adds glass effect */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        width: 100%;
+        /* Full width of container */
+        max-width: 320px;
+        /* Maximum width to keep the layout clean */
+    }
+
+    .speciality-card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .speciality-card:hover {
+        transform: translateY(-10px);
+        background-color: rgba(255, 255, 255, 0.4);
+        /* Slightly less transparent on hover */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #101010;
+        /* White text */
+    }
+
+    p {
+        color: #0e0e0e;
+        /* White text */
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .specialities {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* 1 kolom untuk layar kecil */
+        grid-template-rows: repeat(5, auto);
+
+        gap: 20px;
+        justify-items: center;
+        padding: 40px;
+    }
+
+    .speciality-card {
+        background-color: rgba(255, 255, 255, 0.2);
+        /* Transparent background */
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        /* Transparent border */
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        text-align: left;
+        backdrop-filter: blur(10px);
+        /* Adds glass effect */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        width: 100%;
+        /* Full width of container */
+        max-width: 320px;
+        /* Maximum width to keep the layout clean */
+    }
+
+    .speciality-card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .speciality-card:hover {
+        transform: translateY(-10px);
+        background-color: rgba(255, 255, 255, 0.4);
+        /* Slightly less transparent on hover */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+
+        margin-bottom: 10px;
+        color: #030303;
+        /* White text */
+    }
+
+    p {
+        color: #080808;
+        /* White text */
+        font-size: 1rem;
+    }
+}

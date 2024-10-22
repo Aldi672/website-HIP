@@ -1,49 +1,99 @@
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1001px) and (max-width: 1920px) {
     #tentangkami {
+        background-image: url(../assets/img/image.jpg);
         width: 100%;
-        height: 500px;
-        margin-bottom: 87px;
+        height: auto;
+        padding: 2.5rem;
+    }
+
+    #tan {
+        left: -1vw;
+        position: relative;
+
+        top: 11vw;
     }
 
     #tentangkami #image {
-        width: 200px;
+
         left: -80px;
-        margin-top: 20px;
-        padding-right: 1px;
+        margin-top: -20em;
+
 
     }
 
     #body {
-        width: 480px;
+        width: 60%;
         position: relative;
-        font-size: 12px;
-        top: 60px;
-        left: 40px;
+        font-size: 1.3rem;
+        top: 0vw;
+        left: -3rem;
+        margin-top: 10px;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (min-width: 763px) and (max-width: 1000px) {
+
+
+    #tentangkami {
+        background-image: url(../assets/img/image.jpg);
+        width: 100%;
+        height: 500px;
+
+
+
+    }
+
+
+
+    #tentangkami #image {
+        width: 300px;
+        left: -40px;
+        margin-top: -250px;
+        padding-right: 0px;
+    }
+
+    #tan {
+        left: -2vw;
+        position: relative;
+
+        top: 11vw;
+    }
+
+    #body {
+        width: 50%;
+        position: relative;
+        font-size: 1.1vw;
+        margin-top: -10%;
+        left: 30px;
+
+
+    }
+}
+
+@media screen and (max-width: 760px) {
+
     #id {
         display: none;
     }
 
     #tan {
-        left: 185px;
+        left: 160px;
         position: relative;
 
-        top: -220px;
+        top: -55vw;
     }
 
     #tentangkami {
+        background-image: url(../assets/img/image.jpg);
         width: 100%;
-        height: 100%;
-        margin-bottom: -1px;
+        height: 400px;
+
     }
 
     #tentangkami #image {
         width: 250px;
-        left: -80px;
-        margin-top: 140px;
+        left: -10vw;
+        margin-top: 28%;
         padding-right: 20px;
 
     }
@@ -51,18 +101,31 @@
     #body {
         width: 100%;
         position: relative;
-        font-size: 8px;
-        top: 0px;
-        left: -90px;
-        text-align: center;
+        font-size: 3vw;
+        top: 40px;
+        left: -25vw;
+
         line-height: 10px;
     }
 
     #body #intro {
         font-size: 30px;
+        margin-left: 10px;
     }
 
     #body #bar {
-        margin-left: 50px;
+        margin-left: 10px;
+    }
+
+    #body .geblek {
+        font-size: 2.3vw;
+        line-height: 3vw;
+        font-style: italic;
+
+        font-weight: 400;
+        text-align: left;
+        width: 90%;
+        margin-left: 10px;
+
     }
 }

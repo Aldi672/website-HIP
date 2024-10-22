@@ -14,7 +14,7 @@ const Content3 = () => {
   const sectionContents = [
     "penyebab stres secara umum adalah situasi tegang di rumah, seperti adanya kekerasan di dalam rumah tangga, perpisahan orang tua, atau kematian orang terdekat. Situasi sekolah juga menjadi penyebab—misalnya, harus berkenalan dengan teman baru atau melalui suatu ujian bisa membuat anak merasa takut  .",
     "Pada nyeri kepala, kehilangan kesadaran dalam beberapa waktu, telinga berdenging, lebih sensitif pada cahaya, pandangan kabur, hingga koma. Cedera kepala merupakan adanya benturan dari luar yang dapat mengakibatkan gangguan fungsi otak, penurunan kemampuan belajar, dan gangguan perkembangan otak.",
-    "Stres dan cemas Berkurangnya kemampuan untuk mengingat dan berkonsentrasi. Sulit menghindari pikiran mengganggu yang berkaitan dengan kejadian traumatis. Terus-menerus teringat kejadian traumatis tersebut tanpa bisa dikendalikan. Merasa hilang arah dan disorientasi.",    
+    "Stres dan cemas Berkurangnya kemampuan untuk mengingat dan berkonsentrasi. Sulit menghindari pikiran mengganggu yang berkaitan dengan kejadian traumatis. Terus-menerus teringat kejadian traumatis tersebut tanpa bisa dikendalikan. Merasa hilang arah dan disorientasi.",
     "karena kehilangan kontak sosial sosial dan penghasilan. Efek berbahayanya, terutama dalam jangka panjang, adalah bisa sampai pada kematian karena bunuh diri, terutama bagi mereka yang tidak mendapatkan dukungan sosial.",
   ];
 
@@ -51,9 +51,9 @@ const Content3 = () => {
               yang sehat
             </h2>
             <p className="mt-2 text-slate-600 sm:text-xl">
-            Karena jiwa merupakan bagian integral dari kesehatan bila jiwa kurang sehat, maka kualitas hidup akan berkurang. Kesehatan ini merupakan sesuatu 
-            yang dibutuhkan oleh semua orang, yaitu perasaan sehat, bahagia, dan semangat mengatasi tantangan hidup.
-            keluarga dan orang lain. Oleh karena itu deteksi sedini mungkin lebih penting daripada mengobati.
+              Karena jiwa merupakan bagian integral dari kesehatan bila jiwa kurang sehat, maka kualitas hidup akan berkurang. Kesehatan ini merupakan sesuatu
+              yang dibutuhkan oleh semua orang, yaitu perasaan sehat, bahagia, dan semangat mengatasi tantangan hidup.
+              keluarga dan orang lain. Oleh karena itu deteksi sedini mungkin lebih penting daripada mengobati.
             </p>
             <div className="mt-4 sm:mt-6 group flex justify-center lg:justify-start">
               <a
@@ -169,7 +169,7 @@ const Content3 = () => {
             </svg>
           </div>
           <h1 className="md:text-center mt-20 md:mt-40 text-start mb-10 font-signika text-2xl md:text-3xl lg:text-4xl">
-            Penyebab gangguan kesehatan 
+            Penyebab gangguan kesehatan
             <span className="text-sky-500"> jiwa</span>
           </h1>
 
@@ -198,9 +198,8 @@ const Content3 = () => {
                     </button>
                   </div>
                   <div
-                    className={`${
-                      visibleSections[index] ? "block" : "hidden"
-                    } `}
+                    className={`${visibleSections[index] ? "block" : "hidden"
+                      } `}
                   >
                     <p className="text-start mt-5 font-roboto">{content}</p>
                   </div>

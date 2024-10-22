@@ -1,96 +1,309 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@media screen and (min-width: 1000px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
-* {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
-}
+    * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .2s linear;
+    }
 
-.Page1 {
-    background-color: rgba(134, 235, 235, 0.956);
-    padding: 15px 9%;
-    padding-bottom: 100px;
-}
-
-.Page1 .heading {
-    text-align: center;
-    padding-bottom: 15px;
-    color: #fff;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-    font-size: 50px;
-}
-
-.Page1 .box-Page1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 15px;
-}
-
-.Page1 .box-Page1 .box {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-    border-radius: 5px;
-    background: #fff;
-    text-align: center;
-    padding: 30px 15px;
-}
-
-.Page1 .box-Page1 .box img {
-    width: 400px;
-
-}
-
-.Page1 .box-Page1 .box h3 {
-    color: #444;
-    font-size: 22px;
-    padding: 10px 0;
-}
-
-.Page1 .box-Page1 .box p {
-    color: #777;
-    font-size: 15px;
-    line-height: 1.8;
-}
-
-.Page1 .box-Page1 .box .btn {
-    margin-top: 10px;
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 8px 25px;
-}
-
-.Page1 .box-Page1 .box .btn:hover {
-    letter-spacing: 1px;
-}
-
-.Page1 .box-Page1 .box:hover {
-    background-color: #b8d4de;
-    transform: scale(1.03);
-}
-
-@media (max-width:768px) {
     .Page1 {
-        padding: 20px;
+        background-image: url(../img/frame.png);
+        padding: 15px 9%;
+        padding-bottom: 100px;
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+    }
+
+    .Page1 .heading {
+        text-align: center;
+        padding-bottom: 15px;
+        color: #060707;
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0.251);
+        font-size: 50px;
+
+    }
+
+    .Page1 .box-Page1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 15px;
+    }
+
+    .Page1 .box-Page1 .box {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        background: #02e5fa;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .Page1 .box {
+
+
+
+        text-align: left;
+
+    }
+
+    .Page1 .box-Page1 .box img {
+        width: 400px;
+
+    }
+
+    .Page1 .box-Page1 .box h3 {
+        color: #444;
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .Page1 .box-Page1 .box p {
+        color: #777;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .Page1 .box-Page1 .box .btn {
+        margin-top: 10px;
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        font-size: 17px;
+        border-radius: 5px;
+        padding: 8px 25px;
+    }
+
+    .Page1 .box-Page1 .box .btn:hover {
+        letter-spacing: 1px;
+    }
+
+    .Page1 .box-Page1 .box:hover {
+        background-color: #b8d4de;
+        transform: scale(1.03);
+    }
+
+    .mySwiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 600px;
     }
 }
 
-.mySwiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+    * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .2s linear;
+    }
+
+    #our {
+        background-image: url(../img/frame.png);
+
+        padding-bottom: 100px;
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+    }
+
+    .Page1 .heading {
+        text-align: center;
+        padding-bottom: 15px;
+        color: #060707;
+        text-shadow: 0 5px 10px rgba(0, 0, 0, 0.251);
+        font-size: 50px;
+
+    }
+
+    .Page1 .box-Page1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 15px;
+    }
+
+    .Page1 .box-Page1 .box {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        background: #02e5fa;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .Page1 .box {
+
+
+
+        text-align: left;
+
+    }
+
+    .Page1 .box-Page1 .box img {
+        width: 400px;
+
+    }
+
+    .Page1 .box-Page1 .box h3 {
+        color: #444;
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .Page1 .box-Page1 .box p {
+        color: #777;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .Page1 .box-Page1 .box .btn {
+        margin-top: 10px;
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        font-size: 17px;
+        border-radius: 5px;
+        padding: 8px 25px;
+    }
+
+    .Page1 .box-Page1 .box .btn:hover {
+        letter-spacing: 1px;
+    }
+
+    .Page1 .box-Page1 .box:hover {
+        background-color: #b8d4de;
+        transform: scale(1.03);
+    }
+
+    .mySwiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 600px;
+    }
 }
 
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 600px;
+@media screen and (max-width: 767px) {
+    * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .2s linear;
+    }
+
+    .Page1 {
+        background-image: url(../img/frame.png);
+        padding: 15px 9%;
+        padding-bottom: 100px;
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+    }
+
+    .Page1 .heading {
+        text-align: center;
+        padding-bottom: 15px;
+        color: #03848e6a;
+        text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        font-size: 50px;
+    }
+
+    .Page1 .box-Page1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        /* gap: 40px; */
+    }
+
+    .Page1 .box-Page1 .box {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        background: #02e5fa;
+        text-align: center;
+        padding: 10px 70px;
+    }
+
+    .Page1 .box-Page1 .box img {
+        width: 400px;
+
+    }
+
+    .Page1 .box-Page1 .box h3 {
+        color: #444;
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .Page1 h2.ituu {
+        font-size: 1em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .Page1 h2 .Page1 .box-Page1 .box p {
+        color: #777;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .Page1 .box-Page1 .box .btn {
+        margin-top: 10px;
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        font-size: 17px;
+        border-radius: 5px;
+        padding: 8px 25px;
+    }
+
+    .Page1 .box-Page1 .box .btn:hover {
+        letter-spacing: 1px;
+    }
+
+    .Page1 .box-Page1 .box:hover {
+        background-color: #b8d4de;
+        transform: scale(1.03);
+    }
+
+    .mySwiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 600px;
+    }
 }

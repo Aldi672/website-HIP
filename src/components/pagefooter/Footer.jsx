@@ -1,5 +1,5 @@
 import { FaInstagram, } from "react-icons/fa";
-import Logo from "/src/assets/img/logo.png"
+import Logo from "../img/WhatsApp_Image_2024-09-02_at_14.52.52-removebg.png";
 
 const Footer = () => {
   return (
@@ -10,17 +10,19 @@ const Footer = () => {
           <div className="lg:w-1/3">
             <div className="flex items-center mb-5">
               <img className="w-10 h-auto" src={Logo} alt="" />
-              <h2 className="text-3xl font-bold font-signika ">SaveLife</h2>
+
             </div>
             <p className="text-sm font-roboto">
-              SaveLife adalah platform yang didedikasikan untuk memberikan informasi tentang kesehatan, nutrisi, dan gaya hidup sehat. Kami berkomitmen untuk membantu Anda mencapai hidup yang lebih sehat dan berkualitas.
+              GENERAL CONTRACTOR
+              MARINE SERVICES
+              SAFETY EQUIPMENT
             </p>
             <div className="mt-6 flex flex-col ">
               <p className="font-semibold font-signika">Hubungi kami</p>
               <div className="flex items-center space-x-3 mt-2">
                 <FaInstagram />
                 <a href="https://www.instagram.com/savelife_46/?igsh=aDd1dnQ4MTkxaHMx" className="text-white  hover:text-sky-300">
-                   savelife_46
+                  savelife_46
                 </a>
               </div>
             </div>

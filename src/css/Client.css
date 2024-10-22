@@ -1,0 +1,214 @@
+@media screen and (min-width: 1025px) {
+    .bata {
+        background-image: url(../img/frame.png);
+        padding: 40px 9%;
+        padding-bottom: 100px;
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+
+    }
+
+    .logo.clien {
+        text-align: center;
+
+
+    }
+
+
+    .logo.clien h2 {
+        padding: 10px;
+        color: #080404;
+        margin: 40px;
+        font-size: 1.3rem;
+        text-align: left;
+    }
+
+    .client-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.clien {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .client-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 320px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .client-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .client-card img {
+
+        border-radius: 25%;
+        margin-bottom: 15px;
+    }
+
+    .client-card h2 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .client-card p {
+        font-size: 1rem;
+        color: #777;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .bata {
+        background-image: url(../img/frame.png);
+        padding: 40px 9%;
+        padding-bottom: 100px;
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+
+    }
+
+    .logo.clien {
+        text-align: center;
+
+
+    }
+
+
+    .logo.clien h2 {
+        padding: 10px;
+        color: #080404;
+        margin: 40px;
+        font-size: 1.3rem;
+        text-align: left;
+    }
+
+    .client-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.clien {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .client-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 180px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .client-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .client-card img {
+
+        border-radius: 25%;
+        margin-bottom: 15px;
+    }
+
+    .client-card h2 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .client-card p {
+        font-size: 0.7rem;
+        color: #777;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bata {
+        background-image: url(../img/frame.png);
+        padding: 40px 9%;
+        padding-bottom: 100px;
+        background-position: center;
+        background-size: cover;
+        background-size: no-repeat;
+
+    }
+
+    .logo.clien {
+        text-align: center;
+
+    }
+
+    .logo.clien h1 {
+        margin-bottom: 10px;
+    }
+
+    .logo.clien h2 {
+        padding: 5px;
+        color: #080404;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .client-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.clien {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .client-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 280px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .client-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .client-card img {
+
+        border-radius: 25%;
+        margin-bottom: 15px;
+    }
+
+    .client-card h2 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .client-card p {
+        font-size: 1rem;
+        color: #777;
+    }
+}

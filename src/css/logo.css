@@ -1,0 +1,21 @@
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    #Logo {
+        width: 140px;
+    }
+
+    #Navbar ul a {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #Logo {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #Logo {
+        width: 100px;
+    }
+}

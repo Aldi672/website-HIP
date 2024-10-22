@@ -43,29 +43,7 @@ const Content5 = () => {
         <h3 className="text-4xl font-bold font-signika mb-5 text-slate-800 sm:text-5xl md:text-5xl text-center">
           Sehat <span className="text-sky-500">Lingkungan</span>
         </h3>
-        <div className="flex flex-col lg:flex-row lg:items-center lg:gap-10">
-          <div data-aos="fade-right" className="lg:w-1/2 h-full justify-center flex">
-            <img src={Sehatl} alt="Sehat Fisik" className="w-72 lg:w-96" />
-          </div>
-          <div data-aos="fade-left" className="lg:w-1/2 max-w-full xl:max-w-full text-start lg:text-left">
-            <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:text-3xl font-signika">
-              Apa itu sehat <span className="text-sky-500">lingkungan</span>
-            </h2>
-            <p className="mt-2 text-slate-600 sm:text-xl">
-              Karena lingkungan merupakan segala sesuatu disekitar yang dapat mempengaruhi perkembangan hidup manusia, baik secara langsung maupun tidak langsung.
-              kesehatan sangat penting bagi kelancaran kehidupan di bumi, karena lingkungan adalah tempat dimana pribadi itu tinggal.
-            </p>
-            <div className="mt-4 sm:mt-6 group flex justify-center lg:justify-start">
-              <a
-                href="#pembahasan"
-                className="inline-flex items-center px-5 py-3 bg-sky-500 text-white rounded-md shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base transition-all duration-300 hover:bg-sky-600"
-              >
-                Lanjut
-                <FaArrowRight className="ml-2 transform transition-transform duration-300 group-hover:translate-x-1" />
-              </a>
-            </div>
-          </div>
-        </div>
+
       </div>
 
       <div className="p-6 lg:py-56 py-20 w-full -my-2 flex justify-center backdrop-blur-sm">
@@ -93,7 +71,7 @@ const Content5 = () => {
           {/* page1 */}
           <div data-aos="fade-up-right" className="p-10 w-full  ">
             <h2 className=" text-2xl font-semibold mb-3  text-slate-800 sm:text-3xl font-signika sm:mt-8 lg:mt-0">
-              Ciri-Ciri <span className="text-sky-500">lingkungan</span> yang sehat 
+              Ciri-Ciri <span className="text-sky-500">lingkungan</span> yang sehat
             </h2>
             <div>
               <ul className="max-w-[500px] space-y-2 font-roboto text-[15px] md:text-xl list-decimal">
@@ -196,9 +174,8 @@ const Content5 = () => {
                     </button>
                   </div>
                   <div
-                    className={`${
-                      visibleSections[index] ? "block" : "hidden"
-                    } `}
+                    className={`${visibleSections[index] ? "block" : "hidden"
+                      } `}
                   >
                     <p className="text-start mt-5 font-roboto">{content}</p>
                   </div>
