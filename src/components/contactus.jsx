@@ -28,7 +28,7 @@ const Contact = () => {
     };
 
     const sendToWhatsApp = () => {
-        const whatsappNumber = '6283827638478'; // Ganti dengan nomor WhatsApp Anda
+        const whatsappNumber = '628111772860'; // Ganti dengan nomor WhatsApp Anda
         const text = `My Name Is ${name}\n Email: ${email}\n Phone: ${phone}\n Message: ${message}`;
         const encodedMessage = encodeURIComponent(text)
         const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
