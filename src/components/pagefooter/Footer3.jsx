@@ -29,7 +29,7 @@ const Footer3 = () => {
               </div>
               <div className="flex items-center space-x-3 mt-2">
                 <FaEnvelope />
-                <a href="contact@haekalpratama.com" className="text-black  hover:text-sky-300">
+                <a href="mailto:contact@haekalpratama.com?subject=Subject%20Text&body=This%20is%20the%20message%20body" className="text-black  hover:text-sky-300">
                   haekal_inti_pratama
                 </a>
 
