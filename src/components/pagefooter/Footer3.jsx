@@ -29,7 +29,7 @@ const Footer3 = () => {
               </div>
               <div className="flex items-center space-x-3 mt-2">
                 <FaEnvelope />
-                <a href="https://www.instagram.com/haekal_inti_pratama?igsh=MTl3ODJ0OW9oank4cQ==" className="text-black  hover:text-sky-300">
+                <a href="contact@haekalpratama.com" className="text-black  hover:text-sky-300">
                   haekal_inti_pratama
                 </a>
 
