@@ -6,7 +6,7 @@ import Logo from "../img/WhatsApp_Image_2024-09-02_at_14.52.52-removebg.png"
 
 const Footer3 = () => {
   return (
-    <footer className="bg-sky-300 text-white py-12 mt-10">
+    <footer className="bg-sky-300 text-black py-12 mt-10">
       <div className="container mx-auto px-6 lg:px-16">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Section 1: About SaveLife */}
@@ -22,14 +22,14 @@ const Footer3 = () => {
               <p className="font-semibold font-signika">Contact us</p>
               <div className="flex items-center space-x-3 mt-2">
                 <FaInstagram />
-                <a href="https://www.instagram.com/haekal_inti_pratama?igsh=MTl3ODJ0OW9oank4cQ==" className="text-white  hover:text-sky-300">
+                <a href="https://www.instagram.com/haekal_inti_pratama?igsh=MTl3ODJ0OW9oank4cQ==" className="text-black  hover:text-sky-300">
                   haekal_inti_pratama
                 </a>
 
               </div>
               <div className="flex items-center space-x-3 mt-2">
                 <FaEnvelope />
-                <a href="https://www.instagram.com/haekal_inti_pratama?igsh=MTl3ODJ0OW9oank4cQ==" className="text-white  hover:text-sky-300">
+                <a href="https://www.instagram.com/haekal_inti_pratama?igsh=MTl3ODJ0OW9oank4cQ==" className="text-black  hover:text-sky-300">
                   haekal_inti_pratama
                 </a>
 
@@ -44,23 +44,23 @@ const Footer3 = () => {
               <h3 className="text-xl font-semibold mb-4">Konten</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#beranda" className="text-white hover:text-sky-300">
+                  <a href="#beranda" className="text-black hover:text-sky-300">
 
                     Home page
                   </a>
                 </li>
                 <li>
-                  <a href="#tentangkami" className="text-white hover:text-sky-300">
+                  <a href="#tentangkami" className="text-black hover:text-sky-300">
                     Introduction
                   </a>
                 </li>
                 <li>
-                  <a href="#frame" className="text-white hover:text-sky-300">
+                  <a href="#frame" className="text-black hover:text-sky-300">
                     Company
                   </a>
                 </li>
                 <li>
-                  <a href="#fotofolio" className="text-white hover:text-sky-300">
+                  <a href="#fotofolio" className="text-black hover:text-sky-300">
                     Portofolio
                   </a>
                 </li>
@@ -73,17 +73,17 @@ const Footer3 = () => {
               <h3 className="text-xl font-semibold mb-4">kredit</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="https://id.pinterest.com/" className="text-white hover:text-sky-300">
+                  <a href="https://id.pinterest.com/" className="text-black hover:text-sky-300">
                     Pinterest
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.figma.com/" className="text-white hover:text-sky-300">
+                  <a href="https://www.figma.com/" className="text-black hover:text-sky-300">
                     Figma
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.bing.com/images/create" className="text-white hover:text-sky-300">
+                  <a href="https://www.bing.com/images/create" className="text-black hover:text-sky-300">
                     Bing Image
                   </a>
                 </li>

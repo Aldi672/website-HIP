@@ -55,7 +55,7 @@ const Home = () => {
   }
 
   return (
-    <div className="overflow-hidden transition-all duration-200">
+    <div className="overflow-hidden transition-all duration-200 scroll-smooth" >
       <Navbar />
       <Herro />
       <Tenka />
