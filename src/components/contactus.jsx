@@ -58,7 +58,7 @@ const Contact = () => {
                             </div>
                             <div className="information">
                                 <img src={telep} className="icon" alt="" />
-                                <p>021-22495683</p>
+                                <p>628111772860</p>
                             </div>
                         </div>
 
