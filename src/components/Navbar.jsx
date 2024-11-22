@@ -9,7 +9,7 @@ const Navbar = () => {
   const [navbarBackground, setNavbarBackground] = useState('bg-transparent');
 
   const changeBackground = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 20) {
       setNavbarBackground('bg-white shadow-md backdrop-blur-md bg-opacity-50');
     } else {
       setNavbarBackground('bg-transparent');
@@ -32,13 +32,13 @@ const Navbar = () => {
 
         </div>
         <div id="Navbar" className="md:flex hidden items-center font-signika">
-          <ul className="flex space-x-3 text-[17px] text-black font-roboto font-bold">
-            <a href="#beranda"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">
+          <ul className="flex space-x-3 text-[17px] text-slate-950 font-roboto font-bold">
+            <a href="#beranda"><li className="inline-block px-2 py-1 rounded-full hover:bg-blue-400 cursor-pointer transition-all duration-300 ">
               Home page</li></a>
-            <a href="#tentangkami"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Introduction</li></a>
-            <a href="#frame"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Company</li></a>
-            <a href="#fotofolio"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Portofolio</li></a>
-            <a href="#contact"><li className="inline-block px-2 py-1 rounded-full hover:bg-orange-500 cursor-pointer transition-all duration-300 ">Contact us</li></a>
+            <a href="#tentangkami"><li className="inline-block px-2 py-1 rounded-full hover:bg-blue-400 cursor-pointer transition-all duration-300 ">About Us</li></a>
+            <a href="#frame"><li className="inline-block px-2 py-1 rounded-full hover:bg-blue-400 cursor-pointer transition-all duration-300 ">Company</li></a>
+            <a href="#fotofolio"><li className="inline-block px-2 py-1 rounded-full hover:bg-blue-400 cursor-pointer transition-all duration-300 ">Portofolio</li></a>
+            <a href="#contact"><li className="inline-block px-2 py-1 rounded-full hover:bg-blue-400 cursor-pointer transition-all duration-300 ">Contact</li></a>
           </ul>
         </div>
         <div onClick={() => setButton(!button)} className="md:hidden flex items-center cursor-pointer">
@@ -61,7 +61,7 @@ const Navbar = () => {
               Home page</li>
           </a>
           <a href="#tentangkami">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Introduction</li>
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">About Us</li>
           </a>
           <a href="#frame">
             <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Company</li>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Portofolio</li>
           </a>
           <a href="#contact">
-            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Contact us</li>
+            <li className="p-2 cursor-pointer rounded-lg hover:bg-white hover:text-black">Contact</li>
           </a>
         </ul>
       </div>

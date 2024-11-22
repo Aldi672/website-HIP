@@ -42,7 +42,7 @@ const Contact = () => {
                 <img src={shape} className="square" alt="" />
                 <div className="form">
                     <div className="contact-info">
-                        <h3 className="title">Let's get in touch</h3>
+                        <h3 className="title">Lets get in touch</h3>
                         <p className="text">
                             Experience professional and quality service. We look forward to working with you.
                         </p>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Herro from "../components/Herro";
-import MyTeam from "../components/Myteam";
+
 import Navbar from "../components/Navbar";
 import Tenka from "../components/Tenka";
 import Type from "../components/Type";
@@ -16,7 +16,7 @@ import Fortofolio from "../components/Fortofolio";
 import Faq from "../components/faq";
 import BARA from "../components/desk";
 import Artikel from "../components/artikel";
-import ChatApp from "../ChatApp";
+
 import Fortofolio2 from "../components/Fortofolio2";
 import PageClient from "../components/PageClient";
 import Sertif from "../components/Sertif";

@@ -51,7 +51,7 @@ const Footer3 = () => {
                 </li>
                 <li>
                   <a href="#tentangkami" className="text-black hover:text-sky-300">
-                    Introduction
+                    About Us
                   </a>
                 </li>
                 <li>
